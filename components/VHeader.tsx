@@ -22,7 +22,7 @@ export default function VHeader({ subtitle = "" }: VHeaderProps) {
               </a>
               <button
                 className="btn btn-lg btn-ghost btn-primary"
-                href="#button"
+                //href="#click"
                 data-calendly-url="https://calendly.com/volkan-kaya/30min?back=1&month=2021-08"
               >
                 Book a Demo

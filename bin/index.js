@@ -78,7 +78,7 @@ try {
     // Create the component string
     let component = generateComponent(versolyComponent);
     // Temporarily removing lines that cause issues with TypeScript due to JSX rules...
-    //component = component.replace(' href="#"', ""); // Remove href as it is in a button and causes TS issues
+    component = component.replace('href="#click"', '//href="#click"'); // Remove href as it is in a button and causes TS issues
     component = component.replace("style=", "//style="); // Comment out style as it needs to be converted to JSX
     // Write it to a .tsx file
     write(component, convertVName(versolyComponent.name));
