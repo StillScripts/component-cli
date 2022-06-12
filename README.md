@@ -3,7 +3,8 @@ Designing this as a CLI tool that can be used to turn HTML templates into React 
 support any framework. 
 
 ## Instructions
-- First run `yarn link` to enable local access. 
+- Run `yarn install` to install node_modules
+- Run `yarn link` to enable local access of component-cli. 
 - Run `yarn build` to build the app. 
 - Run `component-cli` to generate components in the /components directory 
 
