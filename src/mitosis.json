@@ -1,0 +1,447 @@
+{
+  "@type": "@builder.io/mitosis/component",
+  "imports": [],
+  "inputs": [],
+  "meta": {},
+  "state": {},
+  "children": [
+    {
+      "@type": "@builder.io/mitosis/node",
+      "name": "section",
+      "meta": {},
+      "scope": {},
+      "properties": {
+        "id": "header",
+        "class": "py-20"
+      },
+      "bindings": {},
+      "children": [
+        {
+          "@type": "@builder.io/mitosis/node",
+          "name": "div",
+          "meta": {},
+          "scope": {},
+          "properties": {
+            "_text": "\n      "
+          },
+          "bindings": {},
+          "children": []
+        },
+        {
+          "@type": "@builder.io/mitosis/node",
+          "name": "div",
+          "meta": {},
+          "scope": {},
+          "properties": {
+            "class": "container"
+          },
+          "bindings": {},
+          "children": [
+            {
+              "@type": "@builder.io/mitosis/node",
+              "name": "div",
+              "meta": {},
+              "scope": {},
+              "properties": {
+                "_text": "\n        "
+              },
+              "bindings": {},
+              "children": []
+            },
+            {
+              "@type": "@builder.io/mitosis/node",
+              "name": "div",
+              "meta": {},
+              "scope": {},
+              "properties": {
+                "class": "row items-center"
+              },
+              "bindings": {},
+              "children": [
+                {
+                  "@type": "@builder.io/mitosis/node",
+                  "name": "div",
+                  "meta": {},
+                  "scope": {},
+                  "properties": {
+                    "_text": "\n          "
+                  },
+                  "bindings": {},
+                  "children": []
+                },
+                {
+                  "@type": "@builder.io/mitosis/node",
+                  "name": "div",
+                  "meta": {},
+                  "scope": {},
+                  "properties": {
+                    "class": "col lg:w-6/12"
+                  },
+                  "bindings": {},
+                  "children": [
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "div",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "_text": "\n            "
+                      },
+                      "bindings": {},
+                      "children": []
+                    },
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "h1",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "class": "display-4 letter-spacing-xs mb-6 font-semibold"
+                      },
+                      "bindings": {},
+                      "children": [
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "_text": "\n              The"
+                          },
+                          "bindings": {},
+                          "children": []
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {},
+                          "bindings": {
+                            "_text": {
+                              "code": "\" \""
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "_text": "\n              "
+                          },
+                          "bindings": {},
+                          "children": []
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "span",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "class": "bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary capitalize"
+                          },
+                          "bindings": {},
+                          "children": [
+                            {
+                              "@type": "@builder.io/mitosis/node",
+                              "name": "div",
+                              "meta": {},
+                              "scope": {},
+                              "properties": {
+                                "_text": "\n                Catchy Description\n              "
+                              },
+                              "bindings": {},
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {},
+                          "bindings": {
+                            "_text": {
+                              "code": "\" \""
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "_text": "\n              For Usage\n            "
+                          },
+                          "bindings": {},
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "div",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "_text": "\n            "
+                      },
+                      "bindings": {},
+                      "children": []
+                    },
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "p",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "class": "text-muted text-lg"
+                      },
+                      "bindings": {},
+                      "children": [
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {},
+                          "bindings": {
+                            "_text": {
+                              "code": "props.subtitle"
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "div",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "_text": "\n            "
+                      },
+                      "bindings": {},
+                      "children": []
+                    },
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "div",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "class": "flex flex-col md:flex-row justify-center lg:justify-left gap-x-3 gap-y-3"
+                      },
+                      "bindings": {},
+                      "children": [
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "_text": "\n              "
+                          },
+                          "bindings": {},
+                          "children": []
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "a",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "href": "#",
+                            "class": "btn btn-primary btn-lg"
+                          },
+                          "bindings": {},
+                          "children": [
+                            {
+                              "@type": "@builder.io/mitosis/node",
+                              "name": "div",
+                              "meta": {},
+                              "scope": {},
+                              "properties": {
+                                "_text": "\n                Get Started ➔\n              "
+                              },
+                              "bindings": {},
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "_text": "\n              "
+                          },
+                          "bindings": {},
+                          "children": []
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "button",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "data-calendly-url": "https://calendly.com/volkan-kaya/30min?back=1&month=2021-08",
+                            "class": "btn btn-lg btn-ghost btn-primary"
+                          },
+                          "bindings": {},
+                          "children": [
+                            {
+                              "@type": "@builder.io/mitosis/node",
+                              "name": "div",
+                              "meta": {},
+                              "scope": {},
+                              "properties": {
+                                "_text": "\n                Book a Demo\n              "
+                              },
+                              "bindings": {},
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "@type": "@builder.io/mitosis/node",
+                          "name": "div",
+                          "meta": {},
+                          "scope": {},
+                          "properties": {
+                            "_text": "\n            "
+                          },
+                          "bindings": {},
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "div",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "_text": "\n          "
+                      },
+                      "bindings": {},
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "@type": "@builder.io/mitosis/node",
+                  "name": "div",
+                  "meta": {},
+                  "scope": {},
+                  "properties": {
+                    "_text": "\n          "
+                  },
+                  "bindings": {},
+                  "children": []
+                },
+                {
+                  "@type": "@builder.io/mitosis/node",
+                  "name": "div",
+                  "meta": {},
+                  "scope": {},
+                  "properties": {
+                    "class": "col lg:w-6/12 mt-12 lg:mt-0"
+                  },
+                  "bindings": {},
+                  "children": [
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "div",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "_text": "\n            "
+                      },
+                      "bindings": {},
+                      "children": []
+                    },
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "img",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "src": "https://d1pnnwteuly8z3.cloudfront.net/images/dafc1e05-b0e8-4c6d-b375-4a62333bbd5a/db204aff-2783-412a-9f3d-8ff54d267d9f.png",
+                        "width": "500",
+                        "height": "370",
+                        "alt": "product image",
+                        "class": "block mx-auto lg:mr-0 pr-6 lg:max-w-[500px]"
+                      },
+                      "bindings": {},
+                      "children": []
+                    },
+                    {
+                      "@type": "@builder.io/mitosis/node",
+                      "name": "div",
+                      "meta": {},
+                      "scope": {},
+                      "properties": {
+                        "_text": "\n          "
+                      },
+                      "bindings": {},
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "@type": "@builder.io/mitosis/node",
+                  "name": "div",
+                  "meta": {},
+                  "scope": {},
+                  "properties": {
+                    "_text": "\n        "
+                  },
+                  "bindings": {},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "@type": "@builder.io/mitosis/node",
+              "name": "div",
+              "meta": {},
+              "scope": {},
+              "properties": {
+                "_text": "\n      "
+              },
+              "bindings": {},
+              "children": []
+            }
+          ]
+        },
+        {
+          "@type": "@builder.io/mitosis/node",
+          "name": "div",
+          "meta": {},
+          "scope": {},
+          "properties": {
+            "_text": "\n    "
+          },
+          "bindings": {},
+          "children": []
+        }
+      ]
+    }
+  ],
+  "hooks": {},
+  "context": {
+    "get": {},
+    "set": {}
+  },
+  "name": "MyComponent",
+  "subComponents": []
+}
