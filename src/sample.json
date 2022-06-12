@@ -1,0 +1,19 @@
+{
+	"id": "69e3584d-d936-4c84-bb32-c719cd1e44e8",
+	"name": "v-header",
+	"text": {
+			"HTML": "<section class=\"py-20\" id=\"header\">\n    <div class=\"container\">\n        <div class=\"row items-center\">\n            <div class=\"col lg:w-6/12\">\n                <h1 class=\"display-4 letter-spacing-xs mb-6 font-semibold\">The <span class=\"bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary capitalize\">Catchy Description</span> For Usage</h1>\n                <p class=\"text-muted text-lg\" v-html=\"subtitle\"></p>\n                <div class=\"flex flex-col md:flex-row justify-center lg:justify-left gap-x-3 gap-y-3\">\n                    <a class=\"btn btn-primary btn-lg\" href=\"#\">Get Started ➔</a>\n                    <button class=\"btn btn-lg btn-ghost btn-primary\" href=\"#\" data-calendly-url=\"https://calendly.com/volkan-kaya/30min?back=1&month=2021-08\">Book a Demo</button>\n                </div>\n            </div>\n            <div class=\"col lg:w-6/12 mt-12 lg:mt-0\">\n                <img class=\"block mx-auto lg:mr-0 pr-6 lg:max-w-[500px]\" src=\"https://d1pnnwteuly8z3.cloudfront.net/images/dafc1e05-b0e8-4c6d-b375-4a62333bbd5a/db204aff-2783-412a-9f3d-8ff54d267d9f.png\" style=\"filter:drop-shadow(0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.075))\" width=\"500\" height=\"370\" alt=\"product image\" />\n            </div>\n        </div>\n    </div>\n</section>"
+	},
+	"created": 1654837468883,
+	"updated": 1654837468883,
+	"fields": [
+			{
+					"slug": "subtitle",
+					"name": "Subtitle",
+					"type": "PlainText",
+					"editable": true,
+					"required": false,
+					"defaultValue": ""
+			}
+	]
+}

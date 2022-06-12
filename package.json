@@ -1,0 +1,34 @@
+{
+  "name": "component-cli",
+  "version": "0.0.1",
+  "description": "A tool for generating React components using JSON data",
+  "main": "index.js",
+  "author": "StillScripts",
+  "license": "MIT",
+  "bin": {
+    "component-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc && yarn chmod",
+    "chmod": "chmod u+x ./bin/index.js",
+    "lint": "eslint '**/*.{js,ts}' --fix",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@types/prettier": "^2.6.3",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.6.2",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "fs": "^0.0.1-security"
+  }
+}
