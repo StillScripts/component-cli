@@ -2,7 +2,9 @@ interface VHeaderProps {
   subtitle?: string;
 }
 
-export default function VHeader({ subtitle = "" }: VHeaderProps) {
+export default function VHeader({
+  subtitle = "This is a subtitle",
+}: VHeaderProps) {
   return (
     <section className="py-20" id="header">
       <div className="container">

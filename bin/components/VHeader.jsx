@@ -14,10 +14,12 @@ function VHeader({ subtitle = "" }) {
             </h1>
             <p className="text-muted text-lg">{subtitle}</p>
             <div className="flex flex-col md:flex-row justify-center lg:justify-left gap-x-3 gap-y-3">
-              <a className="btn btn-primary btn-lg" //href="#">
-     Get Started/> ➔
+              <a className="btn btn-primary btn-lg" href="#">
+                Get Started ➔
               </a>
-              <button className="btn btn-lg btn-ghost btn-primary" href="#" data-calendly-url="https://calendly.com/volkan-kaya/30min?back=1&month=2021-08">
+              <button className="btn btn-lg btn-ghost btn-primary" 
+    //href="#click"
+    data-calendly-url="https://calendly.com/volkan-kaya/30min?back=1&month=2021-08">
                 Book a Demo
               </button>
             </div>
@@ -28,9 +30,7 @@ function VHeader({ subtitle = "" }) {
     width="500" height="370" alt="product image"/>
           </div>
         </div>
-      </div>);
-    section >
-    ;
-    ;
+      </div>
+    </section>);
 }
 exports.default = VHeader;

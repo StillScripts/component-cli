@@ -78,10 +78,14 @@ try {
     // Create the component string
     let component = generateComponent(versolyComponent);
     // Temporarily removing lines that cause issues with TypeScript due to JSX rules...
-    component = component.replace(' href="#"', ""); // Remove href as it is in a button and causes TS issues
+    component = component.replace('href="#click"', '//href="#click"'); // Remove href as it is in a button and causes TS issues
     component = component.replace("style=", "//style="); // Comment out style as it needs to be converted to JSX
     // Write it to a .tsx file
-    write(component, convertVName(versolyComponent.name));
+    const componentName = convertVName(versolyComponent.name);
+    write(component, componentName);
+    // Create an index.tsx file to use for exporting all components
+    // (For multiple components this would need an array and a loop to create an export for each component)
+    write(`export { default as ${componentName} } from "./${componentName}.tsx"`, componentName);
 }
 catch (error) {
     console.log(error);
