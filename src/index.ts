@@ -62,6 +62,20 @@ function htmlToJSX(html: string, fields: VersolyComponentField[]): string {
   return jsx;
 }
 
+// Disregard for now.
+// function htmlToCustomJSX(
+//   html: string,
+//   fields: VersolyComponentField[]
+// ): string {
+//   const jsx = html.replaceAll("class=", "className=");
+//   // This is complex. Replace everything within a html tag with a variable
+//   const parser = new DOMParser();
+//   const doc = parser.parseFromString(html, "text/html");
+//   const bod: HTMLBodyElement = doc.body;
+//   console.log(bod.children);
+//   return jsx;
+// }
+
 /**
  * Create a file for a component
  * @param {string} content - The contents of the .tsx file containing the component
