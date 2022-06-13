@@ -63,15 +63,56 @@ function htmlToJSX(html: string, fields: VersolyComponentField[]): string {
 }
 
 // Disregard for now.
+
+function getKids(node: ChildNode, memo: ChildNode[]) {
+  if (node.hasChildNodes()) {
+    const kids = node.childNodes; // Each child should be added to array
+    memo = [...memo, ...kids]; // Add each child to the existing memo array
+    // Each child should also be tested for children
+    kids.forEach((grandChild) => {
+      memo = getKids(grandChild, memo); // Get grandkids
+      const htmlKid = grandChild as HTMLElement;
+      if (htmlKid.innerText && htmlKid.innerText.trim().length > 0) {
+        console.log(htmlKid.innerText);
+        // We need to create a string props variable...s
+      }
+    });
+    return memo;
+  } else {
+    return memo;
+  }
+}
+
+function getEachNode(node: ChildNode, nodes: ChildNode[]): ChildNode[] {
+  let currentNode = node; // Initialise currentNode value
+  if (currentNode.hasChildNodes()) {
+    node.childNodes.forEach((child) => {
+      // Get each child of the current element that is 1 layer deep (<ul><li>1</li><li>2</li></ul> -> 2 li elements)
+      currentNode = child;
+      if (currentNode.hasChildNodes()) {
+        // Get each child
+      }
+      // Nodes gets each child in the current iteration and stores them recursively
+      nodes.push(child); // Add this child
+    });
+  }
+  return nodes;
+}
+
 // function htmlToCustomJSX(
 //   html: string,
 //   fields: VersolyComponentField[]
 // ): string {
-//   const jsx = html.replaceAll("class=", "className=");
-//   // This is complex. Replace everything within a html tag with a variable
+//const jsx = html.replaceAll("class=", "className=");
+// This is complex. Replace everything within a html tag with a variable
 //   const parser = new DOMParser();
 //   const doc = parser.parseFromString(html, "text/html");
 //   const bod: HTMLBodyElement = doc.body;
+//   bod.childNodes.forEach(child=>{
+//     child.childNodes.forEach((i)=>{
+//       console.log(d)
+//     })
+//   })
 //   console.log(bod.children);
 //   return jsx;
 // }
